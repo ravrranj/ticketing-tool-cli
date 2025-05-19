@@ -20,19 +20,20 @@ A simple command-line interface (CLI) ticket queue manager that supports priorit
 
 2. Compile the Java files:
 
-javac -d bin src/*.java
+   javac -d bin src/*.java
 
 3. Run the project:
 
-java -cp bin Main
+   java -cp bin Main
 
 
-Live Demo
-You can try out the ticketing tool CLI project here:
+Live Demo:
 
-https://ravrranj.github.io/ticketing-tool-cli/
+    You can try out the ticketing tool CLI project here:
 
-Included Files
+   https://ravrranj.github.io/ticketing-tool-cli/
+
+Included Files :-
 
 - index.html - Basic front-end page (for future expansion or demo)
 
