@@ -27,13 +27,13 @@ A simple command-line interface (CLI) ticket queue manager that supports priorit
    java -cp bin Main
 
 
-Live Demo:
+## Live Demo:
 
     You can try out the ticketing tool CLI project here:
 
    https://ravrranj.github.io/ticketing-tool-cli/
 
-Included Files :-
+## Included Files :-
 
 - index.html - Basic front-end page (for future expansion or demo)
 
@@ -43,7 +43,7 @@ Included Files :-
 
 - .gitignore and LICENSE files included
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://chatgpt.com/c/LICENSE) file for details.
 
 If you want, I can help you commit and push this too! Otherwise, you’re all set to add it to your repo.
