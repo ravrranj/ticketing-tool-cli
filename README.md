@@ -1,48 +1,48 @@
+# Ticketing Tool CLI
 
-# Ticketing Tool CLI 🚀
+A simple command-line interface (CLI) ticket queue manager that supports priority tickets, status updates, and queue processing.
 
-A simple command-line-based ticket queue management system written in Java. It simulates a basic IT support ticketing tool that can prioritize and process tickets.
+## Features
 
----
+- Add tickets with priority flag
+- View priority and normal queues separately
+- Process tickets based on priority
+- Update ticket status (case-insensitive)
+- Clear display of ticket information
 
-## 📋 Features
+## How to Run Locally
 
-- Add new tickets with or without priority
-- View ticket queue (separated into priority and normal)
-- Process next ticket in line (priority tickets go first)
-- Update ticket status (`OPEN`, `IN_PROGRESS`, `RESOLVED`, etc.)
-- Simple CLI interface with validation
+1. Clone the repository:
 
----
-
-## 💻 How to Run
-
-1. Compile the Java files:
    ```bash
-   javac Main.java TicketQueueManager.java Ticket.java
+   git clone https://github.com/ravrranj/ticketing-tool-cli.git
+   cd ticketing-tool-cli
 
-2.  Run the program:
- java Main
+2. Compile the Java files:
 
-📦 Project Structure
-.
-├── Main.java
-├── Ticket.java
-├── TicketQueueManager.java
-├── .gitignore
-└── README.md
+javac -d bin src/*.java
 
-🛠 Technologies Used
-Java 21
+3. Run the project:
 
-Git & GitHub (Version Control)
+java -cp bin Main
 
-🙌 Future Improvements
-Save tickets to a file or database
 
-Add user authentication
+Live Demo
+You can try out the ticketing tool CLI project here:
 
-Implement search/filter functionality
+https://ravrranj.github.io/ticketing-tool-cli/
 
-👨‍💻 Author
-Made with ❤️ by @ravrranj
+Included Files
+
+- index.html - Basic front-end page (for future expansion or demo)
+
+- Java source files in src/
+
+- Compiled classes in bin/
+
+- .gitignore and LICENSE files included
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+If you want, I can help you commit and push this too! Otherwise, you’re all set to add it to your repo.
